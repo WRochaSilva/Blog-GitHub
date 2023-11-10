@@ -1,12 +1,14 @@
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./styles/themes/default";
 import { GlobalStyle } from "./styles/global";
+import { Header } from "./Pages/Header";
 
 export const App = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
-      <p>Hello World e</p>
+      <Header />
+      {/* <p>Hello World e</p> */}
     </ThemeProvider>
   );
 };

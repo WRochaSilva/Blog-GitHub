@@ -3,6 +3,7 @@ import { defaultTheme } from "./styles/themes/default";
 import { GlobalStyle } from "./styles/global";
 import { Header } from "./Components/Header";
 import { Profile } from "./Components/Profile";
+import { SearchInput } from "./Components/SearchInput";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <GlobalStyle />
       <Header />
       <Profile />
+      <SearchInput />
     </ThemeProvider>
   );
 };

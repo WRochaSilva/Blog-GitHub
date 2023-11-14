@@ -4,6 +4,7 @@ import { GlobalStyle } from "./styles/global";
 import { Header } from "./Components/Header";
 import { Profile } from "./Components/Profile";
 import { SearchInput } from "./Components/SearchInput";
+import { Card } from "./Components/Card";
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <Header />
       <Profile />
       <SearchInput />
+      <Card />
     </ThemeProvider>
   );
 };
